@@ -1,0 +1,1 @@
+const botoneAggiungi = document.getElementById('bottoneAggiungi');

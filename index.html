@@ -1,39 +1,28 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina con Tailwind CSS</title>
-    <!-- Includi il CDN di Tailwind CSS di Rusu -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stuccarda</title>
+
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
+<body>
+ <!-- <script src="variabili.js"></script> -->
+<script src="funzioni.js"></script>
 
-    
-    
-    <header class="bg-blue-500 text-white p-6">
-        <h1 class="text-4xl font-bold">Benvenuto nella mia pagina!</h1>
-        <p class="mt-2 text-xl">Questa è una demo di una pagina con Tailwind CSS.</p>
-    </header>
+<H1>Lista dinamica</H1>
+  <ul id="miaLista">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
 
-                  
-              
-                      <section class="bg-white shadow-lg rounded-lg p-6 mb-6 transition-all duration-500 hover:bg-blue-100">
-                          <h2 class="text-2xl font-semibold text-blue-700">Bsketball</h2>
-                          <p class="mt-4 text-gray-700">La pallacanestro, conosciuta anche come basket, è uno sport di squadra in cui due formazioni di cinque giocatori ciascuna si affrontano per realizzare punti facendo passare il pallone all'interno del canestro avversario, secondo alcune regole prefissate e con un punteggio che varia rispetto alla posizione di tiro.</p>
-                      </section>
-              
-                      
-                      <div class="bg-green-300 p-8 rounded-lg hover:scale-110 transition-transform duration-500 ease-out">
-                        Passa sopra di me per ingrandirmi
-                      </div>
-                      
-                      <button class="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors duration-300 ease-in-out">
-                        Cliccami
-                      </button>
+</ul>
 
-                  </main>
-              
-                  
+<button id="bottoneAggiungi">Aggiungi un elemento</button>
+<button id="bottonetogli">Togli un elemento</button>
+
+<script src="aggiungiElemento.js"></script>
+
+
 </body>
 </html>
